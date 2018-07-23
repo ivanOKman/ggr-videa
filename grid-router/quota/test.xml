@@ -1,25 +1,23 @@
 <qa:browsers xmlns:qa="urn:config.gridrouter.qatools.ru">
-<browser name="firefox" defaultVersion="58.0">
-    <version number="58.0">
+<browser name="firefox" defaultVersion="57.0">
+    <version number="57.0">
         <region name="1">
-		<host name="AWS_HOST_1" port="4445" count="1"/>
-		<host name="AWS_HOST_2" port="4445" count="1"/>
+		<host name="10.172.130.192" port="4444" count="1"/>
+		<host name="10.172.130.82" port="4444" count="1"/>
+	</region>
+    </version>
+    <version number="56.0">
+        <region name="1">
+		<host name="10.172.130.192" port="4444" count="1"/>
+		<host name="10.172.130.82" port="4444" count="1"/>
 	</region>
     </version>
 </browser>
-<browser name="chrome" defaultVersion="65.0">
-    <version number="65.0">
+<browser name="chrome" defaultVersion="67.0">
+    <version number="67.0">
         <region name="2">
-		<host name="AWS_HOST_1" port="4445" count="1"/>
-		<host name="AWS_HOST_2" port="4445" count="1"/>
-        </region>
-    </version>
-</browser>
-<browser name="opera" defaultVersion="51.0">
-    <version number="51.0">
-        <region name="3">
-		<host name="AWS_HOST_1" port="4445" count="1"/>
-		<host name="AWS_HOST_2" port="4445" count="1"/>
+		<host name="10.172.130.192" port="4444" count="1"/>
+		<host name="10.172.130.82" port="4444" count="1"/>
         </region>
     </version>
 </browser>
